@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    #jeethu{
+        width: 200px;
+        height: 200px;
+        background-color: chocolate;
+
+    }
+</style>
+<body> 
+    <div id="jeethu"> </div> <br><br>
+    <button id="change"type="submit" onclick="change()">Change to circle</button>
+</body>
+<script>
+function change(){
+    document.getElementById("jeethu").style.borderRadius="100%"
+}
+
+</script>
+</html>
